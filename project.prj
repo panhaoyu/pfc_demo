@@ -1,0 +1,529 @@
+{
+    "Header" : {
+        "Type" : "ITASCA PROJECT FILE" ,
+        "Name" : "pfc2d" ,
+        "Version" : 600 ,
+        "Update" : 13 ,
+        "Revision" : 0 ,
+        "Dimension" : 2 ,
+        "DateTime" : "2019-12-21T15:10:28" ,
+        "Binary" : false ,
+        "SixtyFour" : true 
+    },
+    "GuiModuleList" : [ 
+        {
+            "Name" : "Terminal" ,
+            "Entry" : {
+                "SaveFile" : "" ,
+                "Kernel" : {
+                    "LoadCommands" : [  ],
+                    "ModuleList" : {
+                        "Modules" : [  ]
+                    },
+                    "Settings" : {
+                        "UpdateInterval" : 100 ,
+                        "Academic" : false ,
+                        "Demonstration" : false ,
+                        "Unrepeatable" : false ,
+                        "ReadOnly" : false 
+                    },
+                    "ProjectRanges" : {
+                        "SelfIndex" : 0 ,
+                        "Contents" : [  ]
+                    }
+                },
+                "SaveFiles" : {
+                    "Files" : [  ]
+                },
+                "ResultFiles" : {
+                    "Files" : [  ]
+                }
+            }
+        }, 
+        {
+            "Name" : "DFN" ,
+            "Entry" : { }
+        }, 
+        {
+            "Name" : "Editor" ,
+            "Entry" : {
+                "DataFiles" : {
+                    "Files" : [  ]
+                },
+                "OpenFiles" : [  ]
+            }
+        }, 
+        {
+            "Name" : "GUIGeometry" ,
+            "Entry" : { }
+        }, 
+        {
+            "Name" : "GuiPythonModule" ,
+            "Entry" : { }
+        }, 
+        {
+            "Name" : "ItascaModel" ,
+            "Entry" : { }
+        }, 
+        {
+            "Name" : "PFCModule" ,
+            "Entry" : { }
+        }, 
+        {
+            "Name" : "PFCThermalModule" ,
+            "Entry" : { }
+        }, 
+        {
+            "Name" : "Plot" ,
+            "Entry" : {
+                "DefaultPage" : {
+                    "AutoUpdate" : true ,
+                    "Outline" : {
+                        "Active" : true ,
+                        "Enabled" : true ,
+                        "Width" : 2 ,
+                        "Style" : 1 ,
+                        "Color" : "#000000FF" ,
+                        "Bool" : true 
+                    },
+                    "Background" : "#ffffffFF" ,
+                    "Active" : true ,
+                    "Legend" : {
+                        "Active" : true ,
+                        "Placement" : 0 ,
+                        "TargetSize" : {
+                            "Width" : 25 ,
+                            "Height" : 50 
+                        },
+                        "Position" : {
+                            "X" : 66 ,
+                            "Y" : 40 
+                        },
+                        "Title" : {
+                            "Active" : true ,
+                            "Enabled" : true ,
+                            "Size" : 55 ,
+                            "Family" : "Times New Roman" ,
+                            "Style" : 1 ,
+                            "Color" : "#000000FF" ,
+                            "Bool" : true ,
+                            "Text" : "" 
+                        },
+                        "Caption" : {
+                            "Active" : true ,
+                            "Enabled" : true ,
+                            "Size" : 44 ,
+                            "Family" : "Arial" ,
+                            "Style" : 0 ,
+                            "Color" : "#000000FF" ,
+                            "Bool" : true ,
+                            "Text" : "" 
+                        },
+                        "Heading" : {
+                            "Active" : true ,
+                            "Enabled" : true ,
+                            "Size" : 94 ,
+                            "Family" : "Times New Roman" ,
+                            "Style" : 3 ,
+                            "Color" : "#000000FF" ,
+                            "Bool" : true ,
+                            "Text" : "" 
+                        },
+                        "Copyright" : {
+                            "Active" : true ,
+                            "Enabled" : true ,
+                            "Size" : 40 ,
+                            "Family" : "Arial" ,
+                            "Style" : 0 ,
+                            "Color" : "#000000FF" ,
+                            "Bool" : true ,
+                            "Text" : "" 
+                        },
+                        "Step" : {
+                            "Active" : true ,
+                            "Enabled" : true ,
+                            "Size" : 44 ,
+                            "Family" : "Arial" ,
+                            "Style" : 0 ,
+                            "Color" : "#000000FF" ,
+                            "Bool" : false ,
+                            "Text" : "" 
+                        },
+                        "Time" : {
+                            "Active" : true ,
+                            "Enabled" : true ,
+                            "Size" : 44 ,
+                            "Family" : "Arial" ,
+                            "Style" : 0 ,
+                            "Color" : "#000000FF" ,
+                            "Bool" : false ,
+                            "Text" : "" 
+                        },
+                        "Customer" : {
+                            "Active" : true ,
+                            "Enabled" : true ,
+                            "Size" : 44 ,
+                            "Family" : "Arial" ,
+                            "Style" : 0 ,
+                            "Color" : "#000000FF" ,
+                            "Bool" : false ,
+                            "Text" : "" 
+                        },
+                        "View" : {
+                            "Active" : true ,
+                            "Enabled" : true ,
+                            "Size" : 44 ,
+                            "Family" : "Arial" ,
+                            "Style" : 0 ,
+                            "Color" : "#000000FF" ,
+                            "Bool" : false ,
+                            "Text" : "" 
+                        },
+                        "ModelTime" : {
+                            "Active" : true ,
+                            "Enabled" : true ,
+                            "Size" : 44 ,
+                            "Family" : "Arial" ,
+                            "Style" : 0 ,
+                            "Color" : "#000000FF" ,
+                            "Bool" : false ,
+                            "Text" : "" 
+                        },
+                        "ViewDip" : false 
+                    },
+                    "Movie" : false ,
+                    "NextMovieIndex" : 1 ,
+                    "JobTitle" : {
+                        "Active" : true ,
+                        "Enabled" : true ,
+                        "Size" : 12 ,
+                        "Family" : "Arial" ,
+                        "Style" : 0 ,
+                        "Color" : "#000000FF" ,
+                        "Bool" : false ,
+                        "Text" : "" 
+                    },
+                    "ViewTitle" : {
+                        "Active" : true ,
+                        "Enabled" : true ,
+                        "Size" : 12 ,
+                        "Family" : "Arial" ,
+                        "Style" : 0 ,
+                        "Color" : "#000000FF" ,
+                        "Bool" : false ,
+                        "Text" : "Plot Title" 
+                    },
+                    "Target" : true 
+                },
+                "GlobalDefault" : {
+                    "Inter1" : {
+                        "Active" : true ,
+                        "Enabled" : true ,
+                        "Width" : 3 ,
+                        "Style" : 1 ,
+                        "Color" : "#ff0000FF" ,
+                        "Bool" : true 
+                    },
+                    "Inter2" : {
+                        "Active" : true ,
+                        "Enabled" : true ,
+                        "Width" : 2 ,
+                        "Style" : 1 ,
+                        "Color" : "#000000FF" ,
+                        "Bool" : true 
+                    },
+                    "Picking" : true ,
+                    "Sketch" : true ,
+                    "UpdateInterval" : 100 ,
+                    "PrintSize" : {
+                        "Width" : 1650 ,
+                        "Height" : 1238 
+                    },
+                    "MovieInterval" : 1000 ,
+                    "MovieExtension" : "png" ,
+                    "MovieSize" : {
+                        "Width" : 1024 ,
+                        "Height" : 768 
+                    },
+                    "MoviePrefix" : "movie_" ,
+                    "DXFWarning" : true ,
+                    "VRMLWarning" : true ,
+                    "MaxLabels" : 1024000 
+                },
+                "Plots" : [ 
+                    {
+                        "View" : {
+                            "Locked" : false ,
+                            "ModelExtent" :  { "X1" : -1.000000000000000e+00  , "X2" : 1.000000000000000e+00  , "Y1" : -1.000000000000000e+00  , "Y2" : 1.000000000000000e+00 } ,
+                            "ViewExtent" :  { "X1" : 0.000000000000000e+00  , "X2" : 1.000000000000000e+00  , "Y1" : 0.000000000000000e+00  , "Y2" : 1.000000000000000e+00 } ,
+                            "FirstViewAuto" : true ,
+                            "SyncToName" : "" 
+                        },
+                        "Properties" : {
+                            "AutoUpdate" : true ,
+                            "Outline" : {
+                                "Active" : true ,
+                                "Enabled" : true ,
+                                "Width" : 2 ,
+                                "Style" : 1 ,
+                                "Color" : "#000000FF" ,
+                                "Bool" : true 
+                            },
+                            "Background" : "#ffffffFF" ,
+                            "Active" : true ,
+                            "Legend" : {
+                                "Active" : true ,
+                                "Placement" : 0 ,
+                                "TargetSize" : {
+                                    "Width" : 25 ,
+                                    "Height" : 50 
+                                },
+                                "Position" : {
+                                    "X" : 66 ,
+                                    "Y" : 40 
+                                },
+                                "Title" : {
+                                    "Active" : true ,
+                                    "Enabled" : true ,
+                                    "Size" : 55 ,
+                                    "Family" : "Times New Roman" ,
+                                    "Style" : 1 ,
+                                    "Color" : "#000000FF" ,
+                                    "Bool" : true ,
+                                    "Text" : "" 
+                                },
+                                "Caption" : {
+                                    "Active" : true ,
+                                    "Enabled" : true ,
+                                    "Size" : 44 ,
+                                    "Family" : "Arial" ,
+                                    "Style" : 0 ,
+                                    "Color" : "#000000FF" ,
+                                    "Bool" : true ,
+                                    "Text" : "" 
+                                },
+                                "Heading" : {
+                                    "Active" : true ,
+                                    "Enabled" : true ,
+                                    "Size" : 94 ,
+                                    "Family" : "Times New Roman" ,
+                                    "Style" : 3 ,
+                                    "Color" : "#000000FF" ,
+                                    "Bool" : true ,
+                                    "Text" : "" 
+                                },
+                                "Copyright" : {
+                                    "Active" : true ,
+                                    "Enabled" : true ,
+                                    "Size" : 40 ,
+                                    "Family" : "Arial" ,
+                                    "Style" : 0 ,
+                                    "Color" : "#000000FF" ,
+                                    "Bool" : true ,
+                                    "Text" : "" 
+                                },
+                                "Step" : {
+                                    "Active" : true ,
+                                    "Enabled" : true ,
+                                    "Size" : 44 ,
+                                    "Family" : "Arial" ,
+                                    "Style" : 0 ,
+                                    "Color" : "#000000FF" ,
+                                    "Bool" : false ,
+                                    "Text" : "" 
+                                },
+                                "Time" : {
+                                    "Active" : true ,
+                                    "Enabled" : true ,
+                                    "Size" : 44 ,
+                                    "Family" : "Arial" ,
+                                    "Style" : 0 ,
+                                    "Color" : "#000000FF" ,
+                                    "Bool" : false ,
+                                    "Text" : "" 
+                                },
+                                "Customer" : {
+                                    "Active" : true ,
+                                    "Enabled" : true ,
+                                    "Size" : 44 ,
+                                    "Family" : "Arial" ,
+                                    "Style" : 0 ,
+                                    "Color" : "#000000FF" ,
+                                    "Bool" : false ,
+                                    "Text" : "" 
+                                },
+                                "View" : {
+                                    "Active" : true ,
+                                    "Enabled" : true ,
+                                    "Size" : 44 ,
+                                    "Family" : "Arial" ,
+                                    "Style" : 0 ,
+                                    "Color" : "#000000FF" ,
+                                    "Bool" : false ,
+                                    "Text" : "" 
+                                },
+                                "ModelTime" : {
+                                    "Active" : true ,
+                                    "Enabled" : true ,
+                                    "Size" : 44 ,
+                                    "Family" : "Arial" ,
+                                    "Style" : 0 ,
+                                    "Color" : "#000000FF" ,
+                                    "Bool" : false ,
+                                    "Text" : "" 
+                                },
+                                "ViewDip" : false 
+                            },
+                            "Movie" : false ,
+                            "NextMovieIndex" : 1 ,
+                            "JobTitle" : {
+                                "Active" : true ,
+                                "Enabled" : true ,
+                                "Size" : 12 ,
+                                "Family" : "Arial" ,
+                                "Style" : 0 ,
+                                "Color" : "#000000FF" ,
+                                "Bool" : false ,
+                                "Text" : "" 
+                            },
+                            "ViewTitle" : {
+                                "Active" : true ,
+                                "Enabled" : true ,
+                                "Size" : 12 ,
+                                "Family" : "Arial" ,
+                                "Style" : 0 ,
+                                "Color" : "#000000FF" ,
+                                "Bool" : false ,
+                                "Text" : "Plot Title" 
+                            },
+                            "Target" : true 
+                        },
+                        "PlotItems" : [  ],
+                        "ID" : 1 ,
+                        "Name" : "Plot01" 
+                    }
+                ],
+                "Entry" : {
+                    "ControlSets" : [ 
+                        {
+                            "Name" : "ItemListControl" ,
+                            "Set" : {
+                                "Index" : 0 ,
+                                "Active" : true ,
+                                "ListCaptionHidden" : false 
+                            }
+                        }, 
+                        {
+                            "Name" : "FishGlobals" ,
+                            "Set" : {
+                                "Index" : 1 ,
+                                "Active" : false 
+                            }
+                        }, 
+                        {
+                            "Name" : "ViewShiftControl" ,
+                            "Set" : {
+                                "Index" : 2 ,
+                                "Active" : false ,
+                                "Hidden" : false 
+                            }
+                        }, 
+                        {
+                            "Name" : "ViewStatsControl" ,
+                            "Set" : {
+                                "Index" : 3 ,
+                                "Active" : true ,
+                                "InfoCaptionHidden" : false 
+                            }
+                        }, 
+                        {
+                            "Name" : "InfoControl" ,
+                            "Set" : {
+                                "Index" : 4 ,
+                                "Active" : true ,
+                                "Hidden" : false 
+                            }
+                        }
+                    ],
+                    "TabState" : [ 
+                        {
+                            "Name" : "Plot01" ,
+                            "TabWidget" : [ 
+                                {
+                                    "States" : [ 
+                                        {
+                                            "First" : "ItemListControl" ,
+                                            "Second" : 4 
+                                        }, 
+                                        {
+                                            "First" : "FishGlobals" ,
+                                            "Second" : 3 
+                                        }, 
+                                        {
+                                            "First" : "ViewShiftControl" ,
+                                            "Second" : 3 
+                                        }, 
+                                        {
+                                            "First" : "ViewStatsControl" ,
+                                            "Second" : 4 
+                                        }, 
+                                        {
+                                            "First" : "InfoControl" ,
+                                            "Second" : 4 
+                                        }
+                                    ],
+                                    "Stretch" : 1 
+                                }
+                            ],
+                            "Active" : true 
+                        }, 
+                        {
+                            "Name" : "+" ,
+                            "TabWidget" : [  ],
+                            "Active" : false 
+                        }
+                    ]
+                },
+                "Views" : [  ]
+            }
+        }, 
+        {
+            "Name" : "Project" ,
+            "Entry" : {
+                "useResults" : true ,
+                "movieOutDir" : "" ,
+                "movieXRes" : 1920 ,
+                "movieYRes" : 1080 ,
+                "resultFiles" : "" ,
+                "saveFiles" : "" ,
+                "plots" : "" ,
+                "datafile" : "" 
+            }
+        }, 
+        {
+            "Name" : "RBlock" ,
+            "Entry" : { }
+        }, 
+        {
+            "Name" : "RBlockThermalModule" ,
+            "Entry" : { }
+        }
+    ],
+    "Terminal" : {
+        "MoveLists" : true ,
+        "LineLimit" : 14 
+    },
+    "ColorMap" : {
+        "EMaps" : [  ]
+    },
+    "Layout" : {
+        "PaneAction" : [ 
+            "Console" ,
+            "IPython Console  " ,
+            "Project" 
+        ],
+        "State" : "AAAA/wAAAAD9AAAAAQAAAAAAAAShAAADE/wCAAAAAvwAAAAaAAADEwAAAOMA/////AEAAAAE+wAAAB4AUAByAG8AagBlAGMAdABfAFAAcgBvAGoAZQBjAHQBAAAAAAAAASgAAABwAP////wAAAEsAAADdQAAANYA/////AIAAAAC/AAAABoAAAIGAAAAcgD////6AAAAAAEAAAAG+wAAAEYASQBQAHkAdABoAG8AbgAgAEMAbwBuAHMAbwBsAGUAIAAgAF8ASQBQAHkAdABoAG8AbgAgAEMAbwBuAHMAbwBsAGUAIAAgAQAAAAD/////AAAAvgD////7AAAAFgBFAGQAaQB0AG8AcgBfAHQAZQBzAHQAAAAAAP////8AAAAAAAAAAPsAAAASAFAAbABvAHQAXwBUAGUAcwB0AgAAAAAAAAAAAAADAAAAAH37AAAAFgBFAGQAaQB0AG8AcgBfAG0AYQBpAG4BAAAAAP////8AAAAAAAAAAPsAAAAqAEUAZABpAHQAbwByAF8AYgBhAGwAbABzAF8AaQBuAF8AYQBfAGIAbwB4AQAAAAD/////AAAAAAAAAAD7AAAAFgBFAGQAaQB0AG8AcgBfAG0AYQBpAG4BAAAAAP////8AAAAAAAAAAPsAAAAeAEMAbwBuAHMAbwBsAGUAXwBDAG8AbgBzAG8AbABlAQAAAiQAAAEJAAAAbQD////8AAAEnAAAAuQAAAAAAP////wCAAAAHfwAAAAaAAADxwAAAAAA////+gAAAAACAAAAVvsAAAAWAE0AbwBkAGUAbABfAE0AbwBkAGUAbAEAAAAA/////wAAAAAAAAAA+wAAABgARQBkAGkAdABvAHIAXwBzAGwAaQBjAGUBAAAAAP////8AAAAAAAAAAPsAAAAcAEUAZABpAHQAbwByAF8AYQBkAHYAYQBuAGMAZQEAAAAA/////wAAAAAAAAAA+wAAABoARQBkAGkAdABvAHIAXwBwAGgAcwBvAGkAbAEAAAAA/////wAAAAAAAAAA+wAAAB4ARQBkAGkAdABvAHIAXwBmAGkAcwBoAHQAYQBuAGsBAAAAAP////8AAAAAAAAAAPsAAAAiAEUAZABpAHQAbwByAF8AYwBvAG0AcABhAHIAaQBzAG8AbgEAAAAA/////wAAAAAAAAAA+wAAABgARQBkAGkAdABvAHIAXwB0AGUAbQBwADEBAAAAAP////8AAAAAAAAAAPsAAAAWAFAAbABvAHQAXwBQAGwAbwB0ADAANQEAAAAA/////wAAAAAAAAAA+wAAACoARQBkAGkAdABvAHIAXwB2AGUAcgB0AGkAYwBhAGwAcwB0AHIAZQBzAHMBAAAAAP////8AAAAAAAAAAPsAAAASAFAAbABvAHQAXwBnAHIAaQBkAQAAAAD/////AAAAAAAAAAD7AAAAHABQAGwAbwB0AF8AcwB0AHIAdQBjAHQAdQByAGUBAAAAAP////8AAAAAAAAAAPsAAAAoAFAAbABvAHQAXwBzAGUAdAB0AGwAZQBtAGUAbgB0AF8AbABvAG4AZwEAAAAA/////wAAAAAAAAAA+wAAACoAUABsAG8AdABfAHMAZQB0AHQAbABlAG0AZQBuAHQAXwB0AHIAYQBuAHMBAAAAAP////8AAAAAAAAAAPsAAAAqAFAAbABvAHQAXwBtAG8AdgBlAG0AZQBuAHQAXwBsAGEAdABlAHIAYQBsAQAAAAD/////AAAAAAAAAAD7AAAAEABFAGQAaQB0AG8AcgBfAHQBAAAAAP////8AAAAAAAAAAPsAAAAkAEUAZABpAHQAbwByAF8AUwBpAG4AZwBsAGUAWgBvAG4AZQBBAQAAAAD/////AAAAAAAAAAD7AAAAGABQAGwAbwB0AF8AcwB6AHoALQBzAHgAegEAAAAA/////wAAAAAAAAAA+wAAABwAUABsAG8AdABfAHgAZABpAHMAcAAtAHMAeAB6AQAAAAD/////AAAAAAAAAAD7AAAAHABQAGwAbwB0AF8AeABkAGkAcwBwAC0AcwB6AHoBAAAAAP////8AAAAAAAAAAPsAAAAYAFAAbABvAHQAXwBSAFMAdAByAGUAcwBzAQAAAAD/////AAAAAAAAAAD7AAAAGABQAGwAbwB0AF8AVABTAHQAcgBlAHMAcwEAAAAA/////wAAAAAAAAAA+wAAABgAUABsAG8AdABfAEEAUwB0AHIAZQBzAHMBAAAAAP////8AAAAAAAAAAPsAAAA4AEUAZABpAHQAbwByAF8AcABsAGEAbgBlAC0AcwBoAGUAZQB0AC0AaQBuAHQAZQByAGYAYQBjAGUBAAAAAP////8AAAAAAAAAAPsAAAAyAEUAZABpAHQAbwByAF8AcABsAGEAbgBlAC0AcwBoAGUAZQB0AC0AYQB0AHQAYQBjAGgBAAAAAP////8AAAAAAAAAAPsAAAAwAEUAZABpAHQAbwByAF8AcABsAGEAbgBlAC0AcwBoAGUAZQB0AC0AYwBoAGUAYwBrAQAAAAD/////AAAAAAAAAAD7AAAAIgBQAGwAbwB0AF8AVABlAG0AcABlAHIAYQB0AHUAcgBlAHMBAAAAAP////8AAAAAAAAAAPsAAAAWAFAAbABvAHQAXwBQAGwAbwB0ADAAMQAAAAAA/////wAAABQA////+wAAAC4ARQBkAGkAdABvAHIAXwBIAHkAZAByAGEAdAAtAGUAeABhAG0AcABsAGUALQAyAQAAAAD/////AAAAAAAAAAD7AAAAEgBQAGwAbwB0AF8AdABlAG0AcAEAAAAA/////wAAAAAAAAAA+wAAABYAUABsAG8AdABfAFAAbABvAHQAMAAxAQAAAAD/////AAAAAAAAAAD7AAAAGgBQAGwAbwB0AF8AZwBlAG8AbQBlAHQAcgB5AQAAAAD/////AAAAAAAAAAD7AAAAFABQAGwAbwB0AF8AaABpAHMAdAAxAQAAAAD/////AAAAAAAAAAD7AAAAFABQAGwAbwB0AF8AaABpAHMAdAAyAQAAAAD/////AAAAAAAAAAD7AAAAFABQAGwAbwB0AF8AaABpAHMAdAAzAQAAAAD/////AAAAAAAAAAD7AAAAFABQAGwAbwB0AF8AaABpAHMAdAA0AQAAAAD/////AAAAAAAAAAD7AAAAFABQAGwAbwB0AF8AaABpAHMAdAA1AQAAAAD/////AAAAAAAAAAD7AAAAIABFAGQAaQB0AG8AcgBfAHYAaQBzAGMAcABsAGEAdABlAQAAAAD/////AAAAAAAAAAD7AAAAGABQAGwAbwB0AF8AWABWAGUAbAAtAEYAMwEAAAAA/////wAAAAAAAAAA+wAAABwAUABsAG8AdABfAFgAVgBlAGwALQBBAG4AYQBsAQAAAAD/////AAAAAAAAAAD7AAAAFgBQAGwAbwB0AF8AUwBYAFgALQBGADMBAAAAAP////8AAAAAAAAAAPsAAAAaAFAAbABvAHQAXwBTAFgAWAAtAEEAbgBhAGwBAAAAAP////8AAAAAAAAAAPsAAAAaAEUAZABpAHQAbwByAF8AYwBhAHYAZQByAG4BAAAAAP////8AAAAAAAAAAPsAAAAWAFAAbABvAHQAXwBTAHgAeABBAGwAbAEAAAAA/////wAAAAAAAAAA+wAAABAAUABsAG8AdABfAFMAeAB4AQAAAAD/////AAAAAAAAAAD7AAAAGgBQAGwAbwB0AF8ASABpAHMAdABEAGkAcwBwAQAAAAD/////AAAAAAAAAAD7AAAAEgBQAGwAbwB0AF8ARwByAGkAZAEAAAAA/////wAAAAAAAAAA+wAAAB4ARQBkAGkAdABvAHIAXwBiAG8AcgBlAGgAbwBsAGUBAAAAAP////8AAAAAAAAAAPsAAAAUAFAAbABvAHQAXwBEAGkAcwBwADEBAAAAAP////8AAAAAAAAAAPsAAAAUAFAAbABvAHQAXwBEAGkAcwBwADIBAAAAAP////8AAAAAAAAAAPsAAAAUAFAAbABvAHQAXwBEAGkAcwBwADMBAAAAAP////8AAAAAAAAAAPsAAAAcAFAAbABvAHQAXwBEAGkAcwBwAEMAbwBuAHQAMQEAAAAA/////wAAAAAAAAAA+wAAABwAUABsAG8AdABfAEQAaQBzAHAAQwBvAG4AdAAyAQAAAAD/////AAAAAAAAAAD7AAAAHABQAGwAbwB0AF8ARABpAHMAcABDAG8AbgB0ADMBAAAAAP////8AAAAAAAAAAPsAAAAWAFAAbABvAHQAXwBNAG8AZABlAGwAMQEAAAAA/////wAAAAAAAAAA+wAAABYAUABsAG8AdABfAE0AbwBkAGUAbAAyAQAAAAD/////AAAAAAAAAAD7AAAAFgBQAGwAbwB0AF8ATQBvAGQAZQBsADMBAAAAAP////8AAAAAAAAAAPsAAABKAEUAZABpAHQAbwByAF8AQgBvAHIAZQBoAG8AbABlAEMAbABvAHMAdQByAGUASQBuAFMAYQBsAHQARgBvAHIAbQBhAHQAaQBvAG4BAAAAAP////8AAAAAAAAAAPsAAAA0AEUAZABpAHQAbwByAF8AQwByAGUAYQB0AGUARwBlAG8AbQBVAHMAaQBuAGcARgBpAHMAaAEAAAAA/////wAAAAAAAAAA+wAAABYARQBkAGkAdABvAHIAXwBwAGwAbwB0AQAAAAD/////AAAAAAAAAAD7AAAAQABFAGQAaQB0AG8AcgBfAEMAcgBlAGEAdABlAEIAdQBpAGwAZABpAG4AZwBCAGwAbwBjAGsAcwBNAG8AZABlAGwBAAAAAP////8AAAAAAAAAAPsAAAA+AEIAdQBpAGwAZABpAG4AZwAgAEIAbABvAGMAawBzAF8AQgB1AGkAbABkAGkAbgBnACAAQgBsAG8AYwBrAHMBAAAAAP////8AAAAAAAAAAPsAAAAWAFAAbABvAHQAXwBQAGwAbwB0ADAAMQEAAAAA/////wAAAAAAAAAA+wAAABwARQBkAGkAdABvAHIAXwBzAGMAYQBsAGEAcgBzAQAAAAD/////AAAAAAAAAAD7AAAAHgBFAGQAaQB0AG8AcgBfAGcAZQBvAG0AZQB0AHIAeQEAAAAA/////wAAAAAAAAAA+wAAABoARQBkAGkAdABvAHIAXwBtAGEAcwB0AGUAcgEAAAAA/////wAAAAAAAAAA+wAAABgARQBkAGkAdABvAHIAXwBjAGgAZQBjAGsBAAAAAP////8AAAAAAAAAAPsAAAAgAEUAZABpAHQAbwByAF8AYwBoAGUAYwBrAF8AdABhAGIBAAAAAP////8AAAAAAAAAAPsAAAASAEUAZABpAHQAbwByAF8AegBpAQAAAAD/////AAAAAAAAAAD7AAAAHABQAGwAbwB0AF8AcABsAC0AQwBUAGMAZQBsAGwBAAAAAP////8AAAAAAAAAAPsAAAAeAEUAZABpAHQAbwByAF8AQwBvAG0AcABUAGUAcwB0AQAAAAD/////AAAAAAAAAAD7AAAAHgBQAGwAbwB0AF8AcABsAC0AdwBzAGQAXwB3AGUAYQEAAAAA/////wAAAAAAAAAA+wAAACIATABpAHMAdABpAG4AZwBfAEgAaQBzAHQAbwByAGkAZQBzAAAAAAD/////AAAAAAAAAAD7AAAAHgBQAGwAbwB0AF8AcABsAC0AdwBlAHYAXwB3AGUAYQAAAAAA/////wAAAAAAAAAA+wAAAB4AUABsAG8AdABfAHAAbAAtAHcAZQByAF8AdwBlAGEAAAAAAP////8AAAAAAAAAAPsAAAAcAFAAbABvAHQAXwBwAGwALQBtAG4AXwB3AGUAYQAAAAAA/////wAAAAAAAAAA+wAAAB4AUABsAG8AdABfAHAAbAAtAHcAcwBhAF8AdwBlAHYAAAAAAP////8AAAAAAAAAAPsAAAAyAEUAZABpAHQAbwByAF8AQwBvAG0AcABUAGUAcwB0AC0ATQBhAGsAZQBQAGwAbwB0AHMAAAAAAP////8AAAAAAAAAAPsAAAAcAFAAbABvAHQAXwBwAGwALQBjAGsAXwB3AGUAYQEAAAAA/////wAAAAAAAAAA+wAAAB4AUABsAG8AdABfAHAAbAAtAG0AZQByAF8AdwBlAGEBAAAAAP////8AAAAAAAAAAPsAAAAeAFAAbABvAHQAXwBwAGwALQBtAGUAdgBfAHcAZQBhAAAAAAD/////AAAAAAAAAAD7AAAAEgBFAGQAaQB0AG8AcgBfAGMAdAEAAAAA/////wAAAAAAAAAA+wAAAB4ARQBkAGkAdABvAHIAXwBjAHQAUABhAHIAYQBtAHMBAAAAAP////8AAAAAAAAAAPsAAAASAEUAZABpAHQAbwByAF8AYwBrAQAAAAD/////AAAAAAAAAAD7AAAAEgBFAGQAaQB0AG8AcgBfAGYAdAAAAAAA/////wAAAAAAAAAA+wAAABYARQBkAGkAdABvAHIAXwBkAG8AbQAxAQAAAAD/////AAAAAAAAAAD7AAAAEgBFAGQAaQB0AG8AcgBfAHMAcAAAAAAA/////wAAAAAAAAAA/AAAABYAAAMyAAAAAAD////6AAAAAAEAAAAG+wAAABwAUABsAG8AdABfAFMAdABhAHQAZQBfAFYAMQBiAQAAAAD/////AAAAAAAAAAD7AAAAHABQAGwAbwB0AF8AUwB0AGEAdABlAF8AVgAyAGIBAAAAAP////8AAAAAAAAAAPsAAAAUAFAAbABvAHQAXwBTADEAXwBMADIBAAAAAP////8AAAAAAAAAAPsAAAAUAFAAbABvAHQAXwBTADEAXwBWADIBAAAAAP////8AAAAAAAAAAPsAAAAcAEUAZABpAHQAbwByAF8AcABvAHMAdABfAHYANgEAAAAA/////wAAAAAAAAAA+wAAABoAUABsAG8AdABfAFMAdABhAHQAZQBfAEgAMQEAAAEMAAAFNwAAAAAAAAAA/AAAAnEAAAEfAAAAAAD////6AAAAAAIAAAAB+wAAABYARQBkAGkAdABvAHIAXwBpAG4AaQAyAAAAAAD/////AAAAAAAAAAD7AAAAFgBQAGwAbwB0AF8AUwAxAF8AVgAyAGIAAAAAFgAAAEoAAAAAAAAAAPsAAAAeAFAAbABvAHQAXwBHAGUAbwBsAG8AZwB5AF8ASAAxAQAAABYAAAIjAAAAAAAAAAD7AAAAFABQAGwAbwB0AF8AUwAxAF8ATAAxAAAAABYAAAEMAAAAAAAAAAD7AAAAFABQAGwAbwB0AF8AUwAxAF8ATAAwAAAAABYAAAGsAAAAAAAAAAD7AAAAHgBQAGwAbwB0AF8AYwBsAG8AcwB1AHIAZQBfAEwAMAAAAAAWAAAA+wAAAAAAAAAA+wAAABoAUABsAG8AdABfAGcAZQBvAGwAXwBWADEAYgAAAAAWAAAB2AAAAAAAAAAA+wAAAB4AUABsAG8AdABfAGMAbABvAHMAdQByAGUAXwBMADIAAAAAwAAAAXkAAAAAAAAAAPsAAAAaAFAAbABvAHQAXwBHAGUAbwBsAF8AVgAyAGIAAAAAFgAAAbgAAAAAAAAAAPsAAAAaAFAAbABvAHQAXwBEAGkAcwBwAGwAXwBIADEAAAABPgAAAPsAAAAAAAAAAPsAAAAUAFAAbABvAHQAXwBTADEAXwBIADEAAAAAXgAAAdsAAAAAAAAAAPsAAAAeAFAAbABvAHQAXwBEAGkAcwBwAGwAQgBfAFYAMQBiAAAAABYAAAHVAAAAAAAAAAD7AAAAHgBQAGwAbwB0AF8ARABhAG0AYQBnAGUAXwBWADIAYgAAAAAtAAABwwAAAAAAAAAA+wAAAB4AUABsAG8AdABfAEQAaQBzAHAAbABCAF8AVgAyAGIAAAAB7wAAAEoAAAAAAAAAAPsAAAAUAFAAbABvAHQAXwBTADMAXwBWADEAAAAAFgAAAgUAAAAAAAAAAPsAAAAUAFAAbABvAHQAXwBTADEAXwBWADEAAAAAVwAAAccAAAAAAAAAAPsAAAAUAFAAbABvAHQAXwBTADMAXwBWADIAAAABhQAAALQAAAAAAAAAAPsAAAAcAFAAbABvAHQAXwBEAGkAcwBwAGwAXwBWADIAYgAAAAAWAAAAfwAAAAAAAAAA+wAAABwAUABsAG8AdABfAEQAaQBzAHAAbABfAFYAMQBiAAAAAKwAAAGNAAAAAAAAAAD7AAAAGgBQAGwAbwB0AF8AZgBhAHUAbAB0AF8ASAAxAAAAABYAAAIjAAAAAAAAAAD7AAAAHgBQAGwAbwB0AF8ARABhAG0AYQBnAGUAXwBWADEAYgAAAAAWAAACEgAAAAAAAAAA+wAAABwAUABsAG8AdABfAEQAaQBzAHAAbABCAF8ASAAxAAAAASoAAAEPAAAAAAAAAAD7AAAAFABQAGwAbwB0AF8AUwAzAF8ASAAxAAAAASkAAAEQAAAAAAAAAAD7AAAAIABQAGwAbwB0AF8AbwB0AGgAZQByAF8AcABsAG8AdABzAQAAABYAAAHZAAAAAAAAAAD7AAAAHABQAGwAbwB0AF8ARABhAG0AYQBnAGUAXwBIADEAAAAAFgAAAiMAAAAAAAAAAPsAAAAeAFAAbABvAHQAXwBjAGwAbwBzAHUAcgBlAF8ATAAxAAAAAF0AAAHcAAAAAAAAAAD8AAADSgAAAIUAAAAAAP////oAAAAAAgAAAAH7AAAAMgBTAHQAYQB0AGUAIABSAGUAYwBvAHIAZABfAFMAdABhAHQAZQAgAFIAZQBjAG8AcgBkAQAAAAD/////AAAAAAAAAAD8AAAFnwAAAKQAAAAAAP////oAAAAAAQAAAAz7AAAAJABQAGwAbwB0AF8AYwBsAG8AcwB1AHIAZQBfAGMAbABhAHMAcwAAAAAA/////wAAAAAAAAAA+wAAACIARQBkAGkAdABvAHIAXwBwAHIAbwBwAGUAcgB0AGkAZQBzAAAAAAD/////AAAAAAAAAAD7AAAALABFAGQAaQB0AG8AcgBfAGUAeABjAGEAdgBhAHQAZQBfAHMAdABvAHAAZQBzAAAAAAD/////AAAAAAAAAAD7AAAAFgBFAGQAaQB0AG8AcgBfAGkAbgBpADEAAAAAAP////8AAAAAAAAAAPsAAAAWAFAAbABvAHQAXwBTADEAXwBWADEAYgAAAAAA/////wAAAAAAAAAA+wAAACYAUABsAG8AdABfAFMAMQBiAGEAYwBrAGYAaQBsAGwAXwBWADIAYgEAAAAA/////wAAAAAAAAAA+wAAACYAUABsAG8AdABfAFMAMQBiAGEAYwBrAGYAaQBsAGwAXwBWADEAYgEAAAAA/////wAAAAAAAAAA+wAAAB4AUABsAG8AdABfAEUAcwBwAGwAYQBzAF8AVgAyAGIBAAAAAP////8AAAAAAAAAAPsAAAAeAFAAbABvAHQAXwBFAHMAcABsAGEAcwBfAFYAMQBiAQAAAAD/////AAAAAAAAAAD7AAAAGgBQAGwAbwB0AF8AVABlAG4AcwBfAFYAMQBiAQAAAAD/////AAAAAAAAAAD7AAAANABQAGwAbwB0AF8ARwBlAG8AbABfAGUAeABjAGEAdgBhAHQAZQBkAF8AcwB0AG8AcABlAHMBAAAAAP////8AAAAAAAAAAPsAAAAiAFAAbABvAHQAXwBFAHMAcABsAGEAcwB0AGkAYwBfAEgAMQEAAAAA/////wAAAAAAAAAA+wAAAD4ASQBQAHkAdABoAG8AbgAgAEMAbwBuAHMAbwBsAGUAXwBJAFAAeQB0AGgAbwBuACAAQwBvAG4AcwBvAGwAZQIAAAFcAAADNQAABiQAAAD9AAAA+wAAAxMAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAgAAACoATQBhAGkAbgBXAGkAbgBkAG8AdwBNAGUAbgB1AFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAC4ATQBhAGkAbgBXAGkAbgBkAG8AdwBNAG8AZAB1AGwAZQBUAG8AbwBsAEIAYQByAQAAAcAAAADXAAAAAAAAAAA=" 
+    },
+    "CPVisible" : true ,
+    "PaneContents" : { }
+}

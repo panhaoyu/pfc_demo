@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# PFC
+/project.temp
+
+# Pychamr
+/.idea
