@@ -130,6 +130,7 @@ dmypy.json
 
 # PFC
 /project.temp
+/sav
 
 # Pycharm
 /.idea
