@@ -15,27 +15,16 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
-    <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
      <item>
-      <widget class="QLabel" name="label">
+      <widget class="QLabel" name="label_3">
        <property name="text">
-        <string>保存状态：</string>
+        <string>项目ID：</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="status_name">
-       <property name="placeholderText">
-        <string>保存状态名</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="pushButton_3">
-       <property name="text">
-        <string>保存</string>
-       </property>
-      </widget>
+      <widget class="QLineEdit" name="project_id"/>
      </item>
     </layout>
    </item>
@@ -54,29 +43,18 @@
     </widget>
    </item>
    <item>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="text">
+      <string>回到试样起点</string>
+     </property>
+    </widget>
+   </item>
+   <item>
     <widget class="QPushButton" name="pushButton_4">
      <property name="text">
       <string>生成parallel bond连接</string>
      </property>
     </widget>
-   </item>
-   <item>
-    <layout class="QHBoxLayout" name="horizontalLayout_3">
-     <item>
-      <widget class="QLabel" name="label_2">
-       <property name="text">
-        <string>自动保存文件名</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLineEdit" name="auto_name">
-       <property name="text">
-        <string>ucs_{{index}}</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
    </item>
    <item>
     <widget class="QPushButton" name="pushButton_5">
@@ -93,14 +71,48 @@
     </widget>
    </item>
    <item>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="text">
+      <string>复制当前项目</string>
+     </property>
+    </widget>
+   </item>
+   <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <property name="sizeConstraint">
       <enum>QLayout::SetDefaultConstraint</enum>
      </property>
      <item>
       <widget class="QLineEdit" name="forward_number">
+       <property name="text">
+        <string>1000</string>
+       </property>
        <property name="placeholderText">
         <string>前进的帧数</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>帧</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="forward_times">
+       <property name="text">
+        <string>1</string>
+       </property>
+       <property name="placeholderText">
+        <string>前进的次数</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>次</string>
        </property>
       </widget>
      </item>
@@ -125,7 +137,7 @@
    <hints>
     <hint type="sourcelabel">
      <x>243</x>
-     <y>85</y>
+     <y>266</y>
     </hint>
     <hint type="destinationlabel">
      <x>269</x>
@@ -141,27 +153,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>309</x>
-     <y>44</y>
+     <y>225</y>
     </hint>
     <hint type="destinationlabel">
      <x>315</x>
      <y>-12</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_3</sender>
-   <signal>clicked()</signal>
-   <receiver>Form</receiver>
-   <slot>save()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>216</x>
-     <y>16</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>162</x>
-     <y>-9</y>
     </hint>
    </hints>
   </connection>
@@ -173,7 +169,7 @@
    <hints>
     <hint type="sourcelabel">
      <x>323</x>
-     <y>110</y>
+     <y>320</y>
     </hint>
     <hint type="destinationlabel">
      <x>443</x>
@@ -189,7 +185,7 @@
    <hints>
     <hint type="sourcelabel">
      <x>297</x>
-     <y>140</y>
+     <y>350</y>
     </hint>
     <hint type="destinationlabel">
      <x>378</x>
@@ -205,7 +201,7 @@
    <hints>
     <hint type="sourcelabel">
      <x>338</x>
-     <y>160</y>
+     <y>370</y>
     </hint>
     <hint type="destinationlabel">
      <x>196</x>
@@ -221,7 +217,7 @@
    <hints>
     <hint type="sourcelabel">
      <x>543</x>
-     <y>289</y>
+     <y>521</y>
     </hint>
     <hint type="destinationlabel">
      <x>551</x>
@@ -229,14 +225,47 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_to_start()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>416</x>
+     <y>287</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>551</x>
+     <y>283</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>duplicate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>421</x>
+     <y>400</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>549</x>
+     <y>396</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>make_sample()</slot>
   <slot>clear()</slot>
-  <slot>save()</slot>
   <slot>parallel_bond()</slot>
   <slot>ucs()</slot>
   <slot>plot_stress_strain()</slot>
   <slot>cycle()</slot>
+  <slot>go_to_start()</slot>
+  <slot>duplicate()</slot>
  </slots>
 </ui>

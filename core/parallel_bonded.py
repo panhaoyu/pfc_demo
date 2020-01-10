@@ -1,6 +1,7 @@
 # 本代码用于生成平行连接绑定
 import itasca
 from itasca import wall, ball, ballarray
+import statistic.models
 
 
 def contact_model():
@@ -28,6 +29,7 @@ def linear_stiffness():
     itasca.command('model solve ratio-average 1e-5')
 
 
-def parallel_bonded():
+def parallel_bonded(project: statistic.models.Project):
     contact_model()
     linear_stiffness()
+    project.save_specimen()

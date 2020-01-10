@@ -129,8 +129,13 @@ dmypy.json
 .pyre/
 
 # PFC
-/project.temp
 /sav
+errorlog.dmp
+errorlog.txt
+project.temp
+project.backup
+
+
 
 # Pycharm
 /.idea

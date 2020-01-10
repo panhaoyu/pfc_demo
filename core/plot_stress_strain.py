@@ -1,24 +1,15 @@
 # 本模块用于绘制应力-应变曲线
-import re
-import os
-import glob
-import itasca
-from . import utils
+import typing
 from matplotlib import pyplot as plt
+import statistic.models
 
 
-def plot_stress_strain():
-    files = glob.glob('sav/ucs_*.sav')
-    print(files)
-    regex = r'sav\\ucs_(\d+)\.sav'
-    regex = re.compile(regex)
-    index_list = [regex.match(file).group(1) for file in files]
-    index_list = [int(index) for index in index_list]
-    index_list.sort()
-    strain_list = list()
-    stress_list = list()
-    for index in index_list:
-        itasca.command(f'model restore "sav/ucs_{index}.sav"')
-        strain_list.append(utils.calculate_strain())
-        stress_list.append(utils.calculate_stress_mpa())
+def plot_stress_strain(project: statistic.models.Project):
+    state_list: typing.List[statistic.models.Statistic] = statistic.models.Statistic.objects.filter(project=project)
+    state_list = list(state_list)
+    [state.update() for state in state_list if not (state.strain and state.stress)]
+    value_list = [(state.strain, state.stress) for state in state_list]
+    value_list.sort(key=lambda value: value[0])
+    strain_list = [value[0] for value in value_list]
+    stress_list = [value[1] for value in value_list]
     plt.plot(strain_list, stress_list)
