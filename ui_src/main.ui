@@ -78,6 +78,13 @@
     </widget>
    </item>
    <item>
+    <widget class="QPushButton" name="pushButton_8">
+     <property name="text">
+      <string>绘制临时图像</string>
+     </property>
+    </widget>
+   </item>
+   <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <property name="sizeConstraint">
       <enum>QLayout::SetDefaultConstraint</enum>
@@ -136,8 +143,8 @@
    <slot>make_sample()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>243</x>
-     <y>266</y>
+     <x>252</x>
+     <y>255</y>
     </hint>
     <hint type="destinationlabel">
      <x>269</x>
@@ -168,8 +175,8 @@
    <slot>parallel_bond()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>323</x>
-     <y>320</y>
+     <x>332</x>
+     <y>313</y>
     </hint>
     <hint type="destinationlabel">
      <x>443</x>
@@ -184,8 +191,8 @@
    <slot>ucs()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>297</x>
-     <y>350</y>
+     <x>306</x>
+     <y>342</y>
     </hint>
     <hint type="destinationlabel">
      <x>378</x>
@@ -232,8 +239,8 @@
    <slot>go_to_start()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>416</x>
-     <y>287</y>
+     <x>425</x>
+     <y>284</y>
     </hint>
     <hint type="destinationlabel">
      <x>551</x>
@@ -257,6 +264,22 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>plot_temp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>446</x>
+     <y>410</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>554</x>
+     <y>424</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>make_sample()</slot>
@@ -267,5 +290,6 @@
   <slot>cycle()</slot>
   <slot>go_to_start()</slot>
   <slot>duplicate()</slot>
+  <slot>plot_temp()</slot>
  </slots>
 </ui>

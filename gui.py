@@ -1,8 +1,6 @@
-import os
-import django
+import core.environ
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pfc_demo.settings')
-django.setup()
+core.environ.setup()
 
 import functools
 from PySide2 import QtWidgets, shiboken2
@@ -10,7 +8,7 @@ import itasca
 import importlib
 import ui_src.main
 from core import make_sample
-from core import parallel_bonded, ucs, plot_stress_strain, utils
+from core import parallel_bonded, ucs, plot_stress_strain, utils, plot_temp
 import statistic.models
 
 itasca.command('python-reset-state false')
@@ -29,6 +27,7 @@ def reload(func):
         importlib.reload(plot_stress_strain)
         importlib.reload(utils)
         importlib.reload(statistic.models)
+        importlib.reload(plot_temp)
         return func(*args, **kwargs)
 
     return wrapper
@@ -84,6 +83,10 @@ class Window(ui_src.main.Ui_Form, QtWidgets.QWidget):
     @reload
     def go_to_start(self):
         self.project.load_specimen()
+
+    @reload
+    def plot_temp(self):
+        plot_temp.plot_temp()
 
 
 window = [Window()]

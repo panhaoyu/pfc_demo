@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'C:\Users\wolf\PycharmProjects\pfc_demo\ui_src\main.ui',
 # licensing of 'C:\Users\wolf\PycharmProjects\pfc_demo\ui_src\main.ui' applies.
 #
-# Created: Mon Dec 23 20:08:05 2019
+# Created: Fri Jan 10 15:28:18 2020
 #      by: pyside2-uic  running on PySide2 5.11.0
 #
 # WARNING! All changes made in this file will be lost!
@@ -46,6 +46,9 @@ class Ui_Form(object):
         self.pushButton_3 = QtWidgets.QPushButton(Form)
         self.pushButton_3.setObjectName("pushButton_3")
         self.verticalLayout_2.addWidget(self.pushButton_3)
+        self.pushButton_8 = QtWidgets.QPushButton(Form)
+        self.pushButton_8.setObjectName("pushButton_8")
+        self.verticalLayout_2.addWidget(self.pushButton_8)
         self.horizontalLayout = QtWidgets.QHBoxLayout()
         self.horizontalLayout.setSizeConstraint(QtWidgets.QLayout.SetDefaultConstraint)
         self.horizontalLayout.setObjectName("horizontalLayout")
@@ -75,6 +78,7 @@ class Ui_Form(object):
         QtCore.QObject.connect(self.pushButton_9, QtCore.SIGNAL("clicked()"), Form.cycle)
         QtCore.QObject.connect(self.pushButton_7, QtCore.SIGNAL("clicked()"), Form.go_to_start)
         QtCore.QObject.connect(self.pushButton_3, QtCore.SIGNAL("clicked()"), Form.duplicate)
+        QtCore.QObject.connect(self.pushButton_8, QtCore.SIGNAL("clicked()"), Form.plot_temp)
         QtCore.QMetaObject.connectSlotsByName(Form)
 
     def retranslateUi(self, Form):
@@ -87,6 +91,7 @@ class Ui_Form(object):
         self.pushButton_5.setText(QtWidgets.QApplication.translate("Form", "单轴压缩", None, -1))
         self.pushButton_6.setText(QtWidgets.QApplication.translate("Form", "应力位移曲线", None, -1))
         self.pushButton_3.setText(QtWidgets.QApplication.translate("Form", "复制当前项目", None, -1))
+        self.pushButton_8.setText(QtWidgets.QApplication.translate("Form", "绘制临时图像", None, -1))
         self.forward_number.setText(QtWidgets.QApplication.translate("Form", "1000", None, -1))
         self.forward_number.setPlaceholderText(QtWidgets.QApplication.translate("Form", "前进的帧数", None, -1))
         self.label.setText(QtWidgets.QApplication.translate("Form", "帧", None, -1))

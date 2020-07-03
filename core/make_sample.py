@@ -41,7 +41,6 @@ def set_random(project: statistic.models.Project):
     """设置随机种子，对于某个随机种子，不同次运行间，其执行结果永远相同"""
     itasca.command(f'model random {project.random_seed}')
 
-
 def set_bound(project: statistic.models.Project):
     """设置默认的连接模式，具体的含义暂时没看"""
     itasca.command('contact cmat default model linear method deform emod 1.0e9 kratio 0.0')
